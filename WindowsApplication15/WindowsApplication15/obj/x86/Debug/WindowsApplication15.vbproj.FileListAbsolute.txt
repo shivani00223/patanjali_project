@@ -1,0 +1,11 @@
+c:\users\admn\documents\visual studio 2010\Projects\WindowsApplication15\WindowsApplication15\bin\Debug\WindowsApplication15.exe
+c:\users\admn\documents\visual studio 2010\Projects\WindowsApplication15\WindowsApplication15\bin\Debug\WindowsApplication15.pdb
+c:\users\admn\documents\visual studio 2010\Projects\WindowsApplication15\WindowsApplication15\bin\Debug\WindowsApplication15.xml
+c:\users\admn\documents\visual studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\admn\documents\visual studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.Form1.resources
+c:\users\admn\documents\visual studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.Resources.resources
+c:\users\admn\documents\visual studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\admn\documents\visual studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\admn\documents\visual studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.exe
+c:\users\admn\documents\visual studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.xml
+c:\users\admn\documents\visual studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.pdb

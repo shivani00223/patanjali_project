@@ -1,0 +1,174 @@
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\bin\Debug\WindowsApplication15.exe
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\bin\Debug\WindowsApplication15.pdb
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\bin\Debug\WindowsApplication15.xml
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.Resources.resources
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.exe
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.xml
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.pdb
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.reg.resources
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.mainpage.resources
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.login.resources
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.h.resources
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.chywan.resources
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.groc.resources
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.lt.resources
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.medic.resources
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.hm.resources
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.pers.resources
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.bdam.resources
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.chy.resources
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.dig_vb.resources
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.fj.resources
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.ghi.resources
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.hw.resources
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.hd.resources
+C:\Users\admn\Documents\Visual Studio 2010\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.hon.resources
+G:\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.exe
+G:\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.xml
+G:\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.pdb
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.exe
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.xml
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.pdb
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\bin\Debug\WindowsApplication15.exe
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\bin\Debug\WindowsApplication15.pdb
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\bin\Debug\WindowsApplication15.xml
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.bdam.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.chy.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.dig_vb.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.fj.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.ghi.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.hd.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.hm.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.hon.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.hw.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.lt.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.medic.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.groc.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.h.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.mainpage.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.login.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.Resources.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.pers.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.reg.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\myproject.vb.GenerateResource.Cache
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.bes.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.spice.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.candy.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.herbalTea.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.jm.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.murrabA.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.SOAN.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.SUGER.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.BROKEN.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.gram.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.NOODLES.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.Oatsvb.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.papad.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.pic.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.PULSES.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.RICE.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.BURA.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.M0IL.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.CF.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.vati.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.arishta.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.asva.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.bhsma.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.godhrk.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.GUGUL.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.kwath.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.parpati.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.patanjalchuran.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.patanjlioil.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.pishti.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.syrup.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.agervati.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.dishwash.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.bodycare.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.condi.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.eye.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.skincare.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.soap.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.facepack.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.Footcream.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.shampoo.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.shaving.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.toothpaste.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.toothbrush.resources
+C:\shiavni\Projects\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.toothpowder.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.exe
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.xml
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.pdb
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\bin\Debug\WindowsApplication15.exe
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\bin\Debug\WindowsApplication15.pdb
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\bin\Debug\WindowsApplication15.xml
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.agervati.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.arishta.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.asva.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.bdam.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.bes.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.bodycare.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.BROKEN.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.BURA.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.candy.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.CF.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.chy.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.condi.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.dig_vb.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.dishwash.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.eye.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.facepack.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.fj.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.bhsma.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.Footcream.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.ghi.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.godhrk.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.gram.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.GUGUL.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.hd.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.herbalTea.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.hm.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.hon.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.hw.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.jm.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.kwath.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.lt.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.M0IL.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.medic.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.groc.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.h.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.mainpage.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.login.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.murrabA.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.Resources.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.NOODLES.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.Oatsvb.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.papad.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.parpati.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.patanjalchuran.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.patanjlioil.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.pers.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.pic.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.pishti.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.PULSES.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.reg.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.RICE.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.shampoo.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.shaving.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.skincare.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.SOAN.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.soap.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.spice.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.SUGER.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.syrup.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.toothbrush.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.toothpaste.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.toothpowder.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.vati.resources
+C:\Users\HP\Documents\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\myproject.vb.GenerateResource.Cache
+C:\Users\HP\Desktop\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.exe
+C:\Users\HP\Desktop\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.xml
+C:\Users\HP\Desktop\Visual Studio 2010\WindowsApplication15\WindowsApplication15\obj\x86\Debug\WindowsApplication15.pdb
