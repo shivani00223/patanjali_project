@@ -30,7 +30,7 @@ Public Class reg
         Dim command As New SqlCommand(cmd, con)
         Dim command1 As New SqlCommand(cmd1, con)
         con.Open()
-        'Check Data Insertion
+
         If (command1.ExecuteNonQuery = 1) Then
             MsgBox("data inserted successfully")
 
