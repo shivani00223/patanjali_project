@@ -1,6 +1,8 @@
 ﻿Public Class agervati
 
     Private Sub agervati_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        'TODO: This line of code loads data into the 'PatanjaliDataSet6.agervati' table. You can move, or remove it, as needed.
+        Me.AgervatiTableAdapter.Fill(Me.PatanjaliDataSet6.agervati)
 
     End Sub
 
@@ -9,7 +11,7 @@
     End Sub
 
     Private Sub LinkLabel1_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
-        mainpage.Show()
+        hm.Show()
         Me.Hide()
 
 

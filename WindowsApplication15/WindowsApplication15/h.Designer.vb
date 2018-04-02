@@ -41,12 +41,12 @@ Partial Class h
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Georgia", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.DarkRed
-        Me.Label1.Location = New System.Drawing.Point(315, 36)
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(315, 21)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(312, 43)
+        Me.Label1.Size = New System.Drawing.Size(559, 43)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "HEALTH CARE"
+        Me.Label1.Text = "HEALTH CARE / स्वास्थ्य देखभाल"
         '
         'LinkLabel2
         '
@@ -58,45 +58,45 @@ Partial Class h
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Button1.Font = New System.Drawing.Font("Modern No. 20", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.Desktop
-        Me.Button1.Location = New System.Drawing.Point(172, 142)
+        Me.Button1.Location = New System.Drawing.Point(68, 116)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(148, 32)
+        Me.Button1.Size = New System.Drawing.Size(184, 47)
         Me.Button1.TabIndex = 7
-        Me.Button1.Text = "BADAM PAK"
+        Me.Button1.Text = "Badam Pak / बादाम पाक"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
-        Me.Button2.BackColor = System.Drawing.Color.White
+        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Button2.Font = New System.Drawing.Font("Modern No. 20", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(629, 142)
+        Me.Button2.Location = New System.Drawing.Point(870, 121)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(187, 32)
+        Me.Button2.Size = New System.Drawing.Size(236, 42)
         Me.Button2.TabIndex = 8
-        Me.Button2.Text = "CHYWANPRASH"
+        Me.Button2.Text = "CHYWANPRASH/च्यवनप्राश"
         Me.Button2.UseVisualStyleBackColor = False
         '
         'Button3
         '
-        Me.Button3.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Button3.Font = New System.Drawing.Font("Modern No. 20", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(172, 215)
+        Me.Button3.Location = New System.Drawing.Point(68, 217)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(148, 33)
+        Me.Button3.Size = New System.Drawing.Size(208, 33)
         Me.Button3.TabIndex = 9
-        Me.Button3.Text = "DIGESTIVES"
+        Me.Button3.Text = "DIGESTIVES / पाचक "
         Me.Button3.UseVisualStyleBackColor = False
         '
         'Button4
         '
-        Me.Button4.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Button4.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Button4.Font = New System.Drawing.Font("Modern No. 20", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(629, 215)
+        Me.Button4.Location = New System.Drawing.Point(870, 209)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(187, 33)
+        Me.Button4.Size = New System.Drawing.Size(236, 41)
         Me.Button4.TabIndex = 10
         Me.Button4.Text = "FRUIT JUICE"
         Me.Button4.UseVisualStyleBackColor = False
@@ -104,9 +104,9 @@ Partial Class h
         'Button5
         '
         Me.Button5.Font = New System.Drawing.Font("Modern No. 20", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(172, 308)
+        Me.Button5.Location = New System.Drawing.Point(52, 324)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(148, 33)
+        Me.Button5.Size = New System.Drawing.Size(208, 33)
         Me.Button5.TabIndex = 11
         Me.Button5.Text = "GHEE"
         Me.Button5.UseVisualStyleBackColor = True
@@ -114,9 +114,9 @@ Partial Class h
         'Button6
         '
         Me.Button6.Font = New System.Drawing.Font("Modern No. 20", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(629, 294)
+        Me.Button6.Location = New System.Drawing.Point(870, 324)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(187, 37)
+        Me.Button6.Size = New System.Drawing.Size(236, 37)
         Me.Button6.TabIndex = 12
         Me.Button6.Text = "HEALTH&WELLNESS"
         Me.Button6.UseVisualStyleBackColor = True
@@ -124,9 +124,9 @@ Partial Class h
         'Button7
         '
         Me.Button7.Font = New System.Drawing.Font("Modern No. 20", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.Location = New System.Drawing.Point(629, 403)
+        Me.Button7.Location = New System.Drawing.Point(870, 451)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(180, 33)
+        Me.Button7.Size = New System.Drawing.Size(236, 33)
         Me.Button7.TabIndex = 13
         Me.Button7.Text = "HONEY"
         Me.Button7.UseVisualStyleBackColor = True
@@ -134,9 +134,9 @@ Partial Class h
         'Button8
         '
         Me.Button8.Font = New System.Drawing.Font("Modern No. 20", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Location = New System.Drawing.Point(172, 414)
+        Me.Button8.Location = New System.Drawing.Point(52, 451)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(164, 33)
+        Me.Button8.Size = New System.Drawing.Size(200, 33)
         Me.Button8.TabIndex = 14
         Me.Button8.Text = "HEALTH DRINK"
         Me.Button8.UseVisualStyleBackColor = True
@@ -145,14 +145,14 @@ Partial Class h
         '
         Me.LinkLabel3.AutoSize = True
         Me.LinkLabel3.BackColor = System.Drawing.Color.Transparent
-        Me.LinkLabel3.Font = New System.Drawing.Font("Palatino Linotype", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LinkLabel3.LinkColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.LinkLabel3.Location = New System.Drawing.Point(96, 507)
+        Me.LinkLabel3.Font = New System.Drawing.Font("Palatino Linotype", 21.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LinkLabel3.LinkColor = System.Drawing.Color.White
+        Me.LinkLabel3.Location = New System.Drawing.Point(63, 596)
         Me.LinkLabel3.Name = "LinkLabel3"
-        Me.LinkLabel3.Size = New System.Drawing.Size(120, 28)
+        Me.LinkLabel3.Size = New System.Drawing.Size(128, 38)
         Me.LinkLabel3.TabIndex = 16
         Me.LinkLabel3.TabStop = True
-        Me.LinkLabel3.Text = ">>previous"
+        Me.LinkLabel3.Text = "previous"
         '
         'h
         '
@@ -161,7 +161,7 @@ Partial Class h
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(856, 570)
+        Me.ClientSize = New System.Drawing.Size(1378, 780)
         Me.Controls.Add(Me.LinkLabel3)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button7)

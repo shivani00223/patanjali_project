@@ -59,25 +59,5 @@ Namespace My.Resources
                 resourceCulture = value
             End Set
         End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property _3d_simple_background_wallpapers_hd__desktop_and_mobile_backgrounds_18() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("3d-simple-background-wallpapers-hd--desktop-and-mobile-backgrounds-18", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property _704705_light_minimalistic_vignette_simple_backgrounds_wallpapers_1920x1080_h() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("704705_light-minimalistic-vignette-simple-backgrounds-wallpapers_1920x1080_h", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
     End Module
 End Namespace

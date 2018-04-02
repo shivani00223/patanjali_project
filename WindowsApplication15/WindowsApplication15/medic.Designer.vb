@@ -44,8 +44,8 @@ Partial Class medic
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Sitka Small", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.Transparent
-        Me.Label1.Location = New System.Drawing.Point(-9, -16)
+        Me.Label1.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.Label1.Location = New System.Drawing.Point(458, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(349, 94)
         Me.Label1.TabIndex = 0
@@ -54,7 +54,7 @@ Partial Class medic
         'Button1
         '
         Me.Button1.AutoEllipsis = True
-        Me.Button1.Location = New System.Drawing.Point(257, 407)
+        Me.Button1.Location = New System.Drawing.Point(176, 543)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 1
@@ -64,7 +64,7 @@ Partial Class medic
         'Button2
         '
         Me.Button2.AutoEllipsis = True
-        Me.Button2.Location = New System.Drawing.Point(219, 271)
+        Me.Button2.Location = New System.Drawing.Point(117, 351)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 2
@@ -74,9 +74,9 @@ Partial Class medic
         'Button3
         '
         Me.Button3.AutoEllipsis = True
-        Me.Button3.Location = New System.Drawing.Point(230, 337)
+        Me.Button3.Location = New System.Drawing.Point(117, 439)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 51)
+        Me.Button3.Size = New System.Drawing.Size(75, 39)
         Me.Button3.TabIndex = 3
         Me.Button3.Text = "Asava"
         Me.Button3.UseVisualStyleBackColor = True
@@ -84,9 +84,9 @@ Partial Class medic
         'Button4
         '
         Me.Button4.AutoEllipsis = True
-        Me.Button4.Location = New System.Drawing.Point(219, 151)
+        Me.Button4.Location = New System.Drawing.Point(160, 171)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
+        Me.Button4.Size = New System.Drawing.Size(117, 23)
         Me.Button4.TabIndex = 4
         Me.Button4.Text = "Godhan /Ark"
         Me.Button4.UseVisualStyleBackColor = True
@@ -94,7 +94,7 @@ Partial Class medic
         'Button5
         '
         Me.Button5.AutoEllipsis = True
-        Me.Button5.Location = New System.Drawing.Point(564, 204)
+        Me.Button5.Location = New System.Drawing.Point(564, 252)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(75, 23)
         Me.Button5.TabIndex = 5
@@ -104,7 +104,7 @@ Partial Class medic
         'Button6
         '
         Me.Button6.AutoEllipsis = True
-        Me.Button6.Location = New System.Drawing.Point(527, 407)
+        Me.Button6.Location = New System.Drawing.Point(551, 439)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(75, 23)
         Me.Button6.TabIndex = 6
@@ -115,7 +115,7 @@ Partial Class medic
         '
         Me.Button7.AutoEllipsis = True
         Me.Button7.BackColor = System.Drawing.Color.Transparent
-        Me.Button7.Location = New System.Drawing.Point(379, 121)
+        Me.Button7.Location = New System.Drawing.Point(347, 129)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(75, 23)
         Me.Button7.TabIndex = 7
@@ -125,7 +125,7 @@ Partial Class medic
         'Button8
         '
         Me.Button8.AutoEllipsis = True
-        Me.Button8.Location = New System.Drawing.Point(379, 420)
+        Me.Button8.Location = New System.Drawing.Point(358, 572)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(75, 23)
         Me.Button8.TabIndex = 8
@@ -135,7 +135,7 @@ Partial Class medic
         'Button9
         '
         Me.Button9.AutoEllipsis = True
-        Me.Button9.Location = New System.Drawing.Point(564, 259)
+        Me.Button9.Location = New System.Drawing.Point(564, 330)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(75, 23)
         Me.Button9.TabIndex = 9
@@ -145,7 +145,7 @@ Partial Class medic
         'Button11
         '
         Me.Button11.AutoEllipsis = True
-        Me.Button11.Location = New System.Drawing.Point(564, 351)
+        Me.Button11.Location = New System.Drawing.Point(512, 543)
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(75, 23)
         Me.Button11.TabIndex = 11
@@ -155,7 +155,7 @@ Partial Class medic
         'Button12
         '
         Me.Button12.AutoEllipsis = True
-        Me.Button12.Location = New System.Drawing.Point(219, 204)
+        Me.Button12.Location = New System.Drawing.Point(117, 268)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(75, 23)
         Me.Button12.TabIndex = 12
@@ -164,7 +164,7 @@ Partial Class medic
         '
         'Button14
         '
-        Me.Button14.Location = New System.Drawing.Point(542, 151)
+        Me.Button14.Location = New System.Drawing.Point(502, 171)
         Me.Button14.Name = "Button14"
         Me.Button14.Size = New System.Drawing.Size(75, 23)
         Me.Button14.TabIndex = 14
@@ -174,21 +174,26 @@ Partial Class medic
         'LinkLabel1
         '
         Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(83, 429)
+        Me.LinkLabel1.BackColor = System.Drawing.Color.Transparent
+        Me.LinkLabel1.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LinkLabel1.ForeColor = System.Drawing.Color.White
+        Me.LinkLabel1.LinkColor = System.Drawing.Color.White
+        Me.LinkLabel1.Location = New System.Drawing.Point(101, 665)
         Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(59, 13)
+        Me.LinkLabel1.Size = New System.Drawing.Size(119, 35)
         Me.LinkLabel1.TabIndex = 15
         Me.LinkLabel1.TabStop = True
-        Me.LinkLabel1.Text = ">>previous"
+        Me.LinkLabel1.Text = "previous"
         '
         'medic
         '
         Me.AccessibleRole = System.Windows.Forms.AccessibleRole.None
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(751, 498)
+        Me.ClientSize = New System.Drawing.Size(1368, 747)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.Button14)
         Me.Controls.Add(Me.Button12)

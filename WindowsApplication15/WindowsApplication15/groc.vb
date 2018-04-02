@@ -44,13 +44,6 @@
         Me.Hide()
     End Sub
 
-    Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
-        SUGER.Show()
-        Me.Hide()
-
-
-
-    End Sub
 
     Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button8.Click
         BROKEN.Show()
@@ -114,4 +107,19 @@
         Me.Hide()
 
     End Sub
+
+    Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
+        katchup.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Label1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label1.Click
+
+    End Sub
+
+    Private Sub Button11_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button11.Click
+        suger.Show()
+        Me.Hide()
+    End Sub
 End Class
+

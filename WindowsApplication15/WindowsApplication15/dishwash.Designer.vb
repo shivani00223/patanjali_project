@@ -22,26 +22,34 @@ Partial Class dishwash
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.ListBox6 = New System.Windows.Forms.ListBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.ListBox2 = New System.Windows.Forms.ListBox()
-        Me.ListBox3 = New System.Windows.Forms.ListBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.PatanjaliDataSet30 = New WindowsApplication15.patanjaliDataSet30()
+        Me.DishwashBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.DishwashTableAdapter = New WindowsApplication15.patanjaliDataSet30TableAdapters.dishwashTableAdapter()
+        Me.ProductNameDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ProductWeightDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ProductPriceDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Button1 = New System.Windows.Forms.Button()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PatanjaliDataSet30, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DishwashBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'ListBox6
         '
         Me.ListBox6.FormattingEnabled = True
-        Me.ListBox6.Items.AddRange(New Object() {"Super Dish Wash Bar / सुपर डिश वाश बार" & Global.Microsoft.VisualBasic.ChrW(9)})
-        Me.ListBox6.Location = New System.Drawing.Point(314, 240)
+        Me.ListBox6.Items.AddRange(New Object() {"Super Dish Wash Bar / सुपर डिश वाश बार" & Global.Microsoft.VisualBasic.ChrW(9), "Super Dish Wash Bar / सुपर डिश वाश बार" & Global.Microsoft.VisualBasic.ChrW(9), "Super dish Wash GEl Neem and lemon"})
+        Me.ListBox6.Location = New System.Drawing.Point(288, 227)
         Me.ListBox6.Name = "ListBox6"
-        Me.ListBox6.Size = New System.Drawing.Size(120, 95)
+        Me.ListBox6.Size = New System.Drawing.Size(210, 95)
         Me.ListBox6.TabIndex = 5
         '
         'Label1
@@ -61,42 +69,6 @@ Partial Class dishwash
         Me.Label2.Size = New System.Drawing.Size(88, 13)
         Me.Label2.TabIndex = 14
         Me.Label2.Text = "" & Global.Microsoft.VisualBasic.ChrW(9) & "Products / उत्पाद"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(585, 169)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(69, 13)
-        Me.Label3.TabIndex = 15
-        Me.Label3.Text = "Weight /वजन" & Global.Microsoft.VisualBasic.ChrW(9)
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(813, 169)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(61, 13)
-        Me.Label4.TabIndex = 16
-        Me.Label4.Text = "" & Global.Microsoft.VisualBasic.ChrW(9) & "Price / मूल्य"
-        '
-        'ListBox2
-        '
-        Me.ListBox2.FormattingEnabled = True
-        Me.ListBox2.Items.AddRange(New Object() {"10 Rs"})
-        Me.ListBox2.Location = New System.Drawing.Point(803, 253)
-        Me.ListBox2.Name = "ListBox2"
-        Me.ListBox2.Size = New System.Drawing.Size(106, 82)
-        Me.ListBox2.TabIndex = 18
-        '
-        'ListBox3
-        '
-        Me.ListBox3.FormattingEnabled = True
-        Me.ListBox3.Items.AddRange(New Object() {"175 gm" & Global.Microsoft.VisualBasic.ChrW(9)})
-        Me.ListBox3.Location = New System.Drawing.Point(562, 240)
-        Me.ListBox3.Name = "ListBox3"
-        Me.ListBox3.Size = New System.Drawing.Size(92, 95)
-        Me.ListBox3.TabIndex = 19
         '
         'Label5
         '
@@ -118,9 +90,10 @@ Partial Class dishwash
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(503, 41)
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(467, 39)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(151, 13)
+        Me.Label7.Size = New System.Drawing.Size(387, 33)
         Me.Label7.TabIndex = 22
         Me.Label7.Text = "Dish Wash Bar / डिश वाश बार "
         '
@@ -135,24 +108,77 @@ Partial Class dishwash
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = ">>Previous"
         '
+        'DataGridView1
+        '
+        Me.DataGridView1.AutoGenerateColumns = False
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ProductNameDataGridViewTextBoxColumn, Me.ProductWeightDataGridViewTextBoxColumn, Me.ProductPriceDataGridViewTextBoxColumn})
+        Me.DataGridView1.DataSource = Me.DishwashBindingSource
+        Me.DataGridView1.Location = New System.Drawing.Point(642, 209)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.Size = New System.Drawing.Size(323, 150)
+        Me.DataGridView1.TabIndex = 24
+        '
+        'PatanjaliDataSet30
+        '
+        Me.PatanjaliDataSet30.DataSetName = "patanjaliDataSet30"
+        Me.PatanjaliDataSet30.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'DishwashBindingSource
+        '
+        Me.DishwashBindingSource.DataMember = "dishwash"
+        Me.DishwashBindingSource.DataSource = Me.PatanjaliDataSet30
+        '
+        'DishwashTableAdapter
+        '
+        Me.DishwashTableAdapter.ClearBeforeFill = True
+        '
+        'ProductNameDataGridViewTextBoxColumn
+        '
+        Me.ProductNameDataGridViewTextBoxColumn.DataPropertyName = "ProductName"
+        Me.ProductNameDataGridViewTextBoxColumn.HeaderText = "ProductName"
+        Me.ProductNameDataGridViewTextBoxColumn.Name = "ProductNameDataGridViewTextBoxColumn"
+        '
+        'ProductWeightDataGridViewTextBoxColumn
+        '
+        Me.ProductWeightDataGridViewTextBoxColumn.DataPropertyName = "ProductWeight"
+        Me.ProductWeightDataGridViewTextBoxColumn.HeaderText = "ProductWeight"
+        Me.ProductWeightDataGridViewTextBoxColumn.Name = "ProductWeightDataGridViewTextBoxColumn"
+        '
+        'ProductPriceDataGridViewTextBoxColumn
+        '
+        Me.ProductPriceDataGridViewTextBoxColumn.DataPropertyName = "ProductPrice"
+        Me.ProductPriceDataGridViewTextBoxColumn.HeaderText = "ProductPrice"
+        Me.ProductPriceDataGridViewTextBoxColumn.Name = "ProductPriceDataGridViewTextBoxColumn"
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(536, 457)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(116, 46)
+        Me.Button1.TabIndex = 25
+        Me.Button1.Text = "ADD"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'dishwash
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1020, 741)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.ListBox3)
-        Me.Controls.Add(Me.ListBox2)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ListBox6)
         Me.Name = "dishwash"
         Me.Text = "dishwash"
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PatanjaliDataSet30, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DishwashBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -160,12 +186,16 @@ Partial Class dishwash
     Friend WithEvents ListBox6 As System.Windows.Forms.ListBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents ListBox2 As System.Windows.Forms.ListBox
-    Friend WithEvents ListBox3 As System.Windows.Forms.ListBox
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
+    Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
+    Friend WithEvents PatanjaliDataSet30 As WindowsApplication15.patanjaliDataSet30
+    Friend WithEvents DishwashBindingSource As System.Windows.Forms.BindingSource
+    Friend WithEvents DishwashTableAdapter As WindowsApplication15.patanjaliDataSet30TableAdapters.dishwashTableAdapter
+    Friend WithEvents ProductNameDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents ProductWeightDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents ProductPriceDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Button1 As System.Windows.Forms.Button
 End Class

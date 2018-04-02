@@ -6,4 +6,10 @@
 
 
     End Sub
+
+    Private Sub jm_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        'TODO: This line of code loads data into the 'PatanjaliDataSet49.jam' table. You can move, or remove it, as needed.
+        Me.JamTableAdapter.Fill(Me.PatanjaliDataSet49.jam)
+
+    End Sub
 End Class

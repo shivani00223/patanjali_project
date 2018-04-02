@@ -1,10 +1,12 @@
 ﻿Public Class pic
 
-    Private Sub Label5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label5.Click
+    Private Sub Label5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
     End Sub
 
     Private Sub pic_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        'TODO: This line of code loads data into the 'PatanjaliDataSet62.Pickle' table. You can move, or remove it, as needed.
+        Me.PickleTableAdapter.Fill(Me.PatanjaliDataSet62.Pickle)
 
     End Sub
 

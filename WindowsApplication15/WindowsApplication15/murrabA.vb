@@ -6,4 +6,10 @@
 
 
     End Sub
+
+    Private Sub murrabA_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        'TODO: This line of code loads data into the 'PatanjaliDataSet54.Murraba' table. You can move, or remove it, as needed.
+        Me.MurrabaTableAdapter.Fill(Me.PatanjaliDataSet54.Murraba)
+
+    End Sub
 End Class

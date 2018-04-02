@@ -22,16 +22,24 @@ Partial Class jm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.ListBox2 = New System.Windows.Forms.ListBox()
-        Me.ListBox3 = New System.Windows.Forms.ListBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.PatanjaliDataSet49 = New WindowsApplication15.patanjaliDataSet49()
+        Me.JamBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.JamTableAdapter = New WindowsApplication15.patanjaliDataSet49TableAdapters.jamTableAdapter()
+        Me.ProductnameDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ProductweightDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ProductpriceDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PatanjaliDataSet49, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.JamBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -52,24 +60,6 @@ Partial Class jm
         Me.ListBox1.Size = New System.Drawing.Size(120, 56)
         Me.ListBox1.TabIndex = 7
         '
-        'ListBox2
-        '
-        Me.ListBox2.FormattingEnabled = True
-        Me.ListBox2.Items.AddRange(New Object() {"500gm", "500gm", "500gm"})
-        Me.ListBox2.Location = New System.Drawing.Point(533, 182)
-        Me.ListBox2.Name = "ListBox2"
-        Me.ListBox2.Size = New System.Drawing.Size(120, 56)
-        Me.ListBox2.TabIndex = 8
-        '
-        'ListBox3
-        '
-        Me.ListBox3.FormattingEnabled = True
-        Me.ListBox3.Items.AddRange(New Object() {"70Rs", "70Rs", "150Rs"})
-        Me.ListBox3.Location = New System.Drawing.Point(679, 182)
-        Me.ListBox3.Name = "ListBox3"
-        Me.ListBox3.Size = New System.Drawing.Size(120, 56)
-        Me.ListBox3.TabIndex = 9
-        '
         'Label2
         '
         Me.Label2.AutoSize = True
@@ -78,24 +68,6 @@ Partial Class jm
         Me.Label2.Size = New System.Drawing.Size(79, 13)
         Me.Label2.TabIndex = 10
         Me.Label2.Text = "products Nmae"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(569, 136)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(41, 13)
-        Me.Label3.TabIndex = 11
-        Me.Label3.Text = "Weight"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(720, 136)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(31, 13)
-        Me.Label4.TabIndex = 12
-        Me.Label4.Text = "Price"
         '
         'Label5
         '
@@ -125,35 +97,92 @@ Partial Class jm
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = ">>PRevious"
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(501, 320)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(99, 34)
+        Me.Button1.TabIndex = 79
+        Me.Button1.Text = "ADD"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'DataGridView1
+        '
+        Me.DataGridView1.AutoGenerateColumns = False
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ProductnameDataGridViewTextBoxColumn, Me.ProductweightDataGridViewTextBoxColumn, Me.ProductpriceDataGridViewTextBoxColumn})
+        Me.DataGridView1.DataSource = Me.JamBindingSource
+        Me.DataGridView1.Location = New System.Drawing.Point(563, 120)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.Size = New System.Drawing.Size(316, 150)
+        Me.DataGridView1.TabIndex = 80
+        '
+        'PatanjaliDataSet49
+        '
+        Me.PatanjaliDataSet49.DataSetName = "patanjaliDataSet49"
+        Me.PatanjaliDataSet49.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'JamBindingSource
+        '
+        Me.JamBindingSource.DataMember = "jam"
+        Me.JamBindingSource.DataSource = Me.PatanjaliDataSet49
+        '
+        'JamTableAdapter
+        '
+        Me.JamTableAdapter.ClearBeforeFill = True
+        '
+        'ProductnameDataGridViewTextBoxColumn
+        '
+        Me.ProductnameDataGridViewTextBoxColumn.DataPropertyName = "productname"
+        Me.ProductnameDataGridViewTextBoxColumn.HeaderText = "productname"
+        Me.ProductnameDataGridViewTextBoxColumn.Name = "ProductnameDataGridViewTextBoxColumn"
+        '
+        'ProductweightDataGridViewTextBoxColumn
+        '
+        Me.ProductweightDataGridViewTextBoxColumn.DataPropertyName = "productweight"
+        Me.ProductweightDataGridViewTextBoxColumn.HeaderText = "productweight"
+        Me.ProductweightDataGridViewTextBoxColumn.Name = "ProductweightDataGridViewTextBoxColumn"
+        '
+        'ProductpriceDataGridViewTextBoxColumn
+        '
+        Me.ProductpriceDataGridViewTextBoxColumn.DataPropertyName = "productprice"
+        Me.ProductpriceDataGridViewTextBoxColumn.HeaderText = "productprice"
+        Me.ProductpriceDataGridViewTextBoxColumn.Name = "ProductpriceDataGridViewTextBoxColumn"
+        '
         'jm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(854, 423)
+        Me.ClientSize = New System.Drawing.Size(935, 423)
+        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.ListBox3)
-        Me.Controls.Add(Me.ListBox2)
         Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "jm"
         Me.Text = "jm"
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PatanjaliDataSet49, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.JamBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
-    Friend WithEvents ListBox2 As System.Windows.Forms.ListBox
-    Friend WithEvents ListBox3 As System.Windows.Forms.ListBox
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
+    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
+    Friend WithEvents PatanjaliDataSet49 As WindowsApplication15.patanjaliDataSet49
+    Friend WithEvents JamBindingSource As System.Windows.Forms.BindingSource
+    Friend WithEvents JamTableAdapter As WindowsApplication15.patanjaliDataSet49TableAdapters.jamTableAdapter
+    Friend WithEvents ProductnameDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents ProductweightDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents ProductpriceDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
 End Class

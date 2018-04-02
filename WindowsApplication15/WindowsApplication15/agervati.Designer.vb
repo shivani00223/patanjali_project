@@ -22,17 +22,25 @@ Partial Class agervati
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(agervati))
         Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.ListBox2 = New System.Windows.Forms.ListBox()
-        Me.ListBox3 = New System.Windows.Forms.ListBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.PatanjaliDataSet6 = New WindowsApplication15.patanjaliDataSet6()
+        Me.AgervatiBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.AgervatiTableAdapter = New WindowsApplication15.patanjaliDataSet6TableAdapters.agervatiTableAdapter()
+        Me.ProductNameDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ProductweightDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ProductpriceDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Button1 = New System.Windows.Forms.Button()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PatanjaliDataSet6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.AgervatiBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'ListBox1
@@ -44,24 +52,6 @@ Partial Class agervati
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(252, 186)
         Me.ListBox1.TabIndex = 0
-        '
-        'ListBox2
-        '
-        Me.ListBox2.FormattingEnabled = True
-        Me.ListBox2.Items.AddRange(New Object() {"25 gm" & Global.Microsoft.VisualBasic.ChrW(9), "28 gm", "24 gm" & Global.Microsoft.VisualBasic.ChrW(9), "28 gm" & Global.Microsoft.VisualBasic.ChrW(9), "28 gm" & Global.Microsoft.VisualBasic.ChrW(9), "25 gm", "28 gm" & Global.Microsoft.VisualBasic.ChrW(9), "28 gm" & Global.Microsoft.VisualBasic.ChrW(9), "24 gm" & Global.Microsoft.VisualBasic.ChrW(9), "24 gm" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9), "25 gm" & Global.Microsoft.VisualBasic.ChrW(9), "25 gm" & Global.Microsoft.VisualBasic.ChrW(9)})
-        Me.ListBox2.Location = New System.Drawing.Point(515, 223)
-        Me.ListBox2.Name = "ListBox2"
-        Me.ListBox2.Size = New System.Drawing.Size(120, 186)
-        Me.ListBox2.TabIndex = 1
-        '
-        'ListBox3
-        '
-        Me.ListBox3.FormattingEnabled = True
-        Me.ListBox3.Items.AddRange(New Object() {"20 Rs", "20 Rs", "20 Rs", "20 Rs", "20 Rs", "20 Rs", "20 Rs", "20 Rs", "20 Rs", "20 Rs", "20Rs", "20 Rs"})
-        Me.ListBox3.Location = New System.Drawing.Point(777, 223)
-        Me.ListBox3.Name = "ListBox3"
-        Me.ListBox3.Size = New System.Drawing.Size(120, 186)
-        Me.ListBox3.TabIndex = 2
         '
         'Label5
         '
@@ -87,36 +77,12 @@ Partial Class agervati
         Me.Label2.TabIndex = 14
         Me.Label2.Text = "" & Global.Microsoft.VisualBasic.ChrW(9) & "Products / उत्पाद"
         '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(581, 143)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(101, 20)
-        Me.Label3.TabIndex = 15
-        Me.Label3.Text = "Weight /वजन" & Global.Microsoft.VisualBasic.ChrW(9)
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(810, 143)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(87, 20)
-        Me.Label4.TabIndex = 17
-        Me.Label4.Text = "" & Global.Microsoft.VisualBasic.ChrW(9) & "Price / मूल्य"
-        '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Modern No. 20", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(369, 20)
+        Me.Label1.Location = New System.Drawing.Point(336, 39)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(266, 34)
         Me.Label1.TabIndex = 18
@@ -145,37 +111,94 @@ Partial Class agervati
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = ">>Previous"
         '
+        'DataGridView1
+        '
+        Me.DataGridView1.AutoGenerateColumns = False
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ProductNameDataGridViewTextBoxColumn, Me.ProductweightDataGridViewTextBoxColumn, Me.ProductpriceDataGridViewTextBoxColumn})
+        Me.DataGridView1.DataSource = Me.AgervatiBindingSource
+        Me.DataGridView1.Location = New System.Drawing.Point(680, 213)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.Size = New System.Drawing.Size(341, 186)
+        Me.DataGridView1.TabIndex = 21
+        '
+        'PatanjaliDataSet6
+        '
+        Me.PatanjaliDataSet6.DataSetName = "patanjaliDataSet6"
+        Me.PatanjaliDataSet6.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'AgervatiBindingSource
+        '
+        Me.AgervatiBindingSource.DataMember = "agervati"
+        Me.AgervatiBindingSource.DataSource = Me.PatanjaliDataSet6
+        '
+        'AgervatiTableAdapter
+        '
+        Me.AgervatiTableAdapter.ClearBeforeFill = True
+        '
+        'ProductNameDataGridViewTextBoxColumn
+        '
+        Me.ProductNameDataGridViewTextBoxColumn.DataPropertyName = "product_Name"
+        Me.ProductNameDataGridViewTextBoxColumn.HeaderText = "product_Name"
+        Me.ProductNameDataGridViewTextBoxColumn.Name = "ProductNameDataGridViewTextBoxColumn"
+        '
+        'ProductweightDataGridViewTextBoxColumn
+        '
+        Me.ProductweightDataGridViewTextBoxColumn.DataPropertyName = "Product_weight"
+        Me.ProductweightDataGridViewTextBoxColumn.HeaderText = "Product_weight"
+        Me.ProductweightDataGridViewTextBoxColumn.Name = "ProductweightDataGridViewTextBoxColumn"
+        '
+        'ProductpriceDataGridViewTextBoxColumn
+        '
+        Me.ProductpriceDataGridViewTextBoxColumn.DataPropertyName = "product_price"
+        Me.ProductpriceDataGridViewTextBoxColumn.HeaderText = "product_price"
+        Me.ProductpriceDataGridViewTextBoxColumn.Name = "ProductpriceDataGridViewTextBoxColumn"
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(527, 522)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(109, 48)
+        Me.Button1.TabIndex = 22
+        Me.Button1.Text = "Add"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'agervati
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1020, 680)
+        Me.ClientSize = New System.Drawing.Size(1142, 680)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.ListBox3)
-        Me.Controls.Add(Me.ListBox2)
         Me.Controls.Add(Me.ListBox1)
         Me.Name = "agervati"
         Me.Text = "agervati"
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PatanjaliDataSet6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.AgervatiBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
     Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
-    Friend WithEvents ListBox2 As System.Windows.Forms.ListBox
-    Friend WithEvents ListBox3 As System.Windows.Forms.ListBox
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
+    Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
+    Friend WithEvents PatanjaliDataSet6 As WindowsApplication15.patanjaliDataSet6
+    Friend WithEvents AgervatiBindingSource As System.Windows.Forms.BindingSource
+    Friend WithEvents AgervatiTableAdapter As WindowsApplication15.patanjaliDataSet6TableAdapters.agervatiTableAdapter
+    Friend WithEvents ProductNameDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents ProductweightDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents ProductpriceDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Button1 As System.Windows.Forms.Button
 End Class

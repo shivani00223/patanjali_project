@@ -22,4 +22,9 @@
         mainpage.Show()
         Me.Hide()
     End Sub
+
+    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+        Dhoop.Show()
+        Me.Hide()
+    End Sub
 End Class

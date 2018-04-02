@@ -28,7 +28,6 @@ Partial Class pers
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
         Me.Button13 = New System.Windows.Forms.Button()
         Me.Button14 = New System.Windows.Forms.Button()
         Me.Button15 = New System.Windows.Forms.Button()
@@ -36,16 +35,21 @@ Partial Class pers
         Me.Button17 = New System.Windows.Forms.Button()
         Me.Button18 = New System.Windows.Forms.Button()
         Me.Button19 = New System.Windows.Forms.Button()
-        Me.Button23 = New System.Windows.Forms.Button()
         Me.Button24 = New System.Windows.Forms.Button()
         Me.Button25 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.Button11 = New System.Windows.Forms.Button()
+        Me.Button12 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(87, 72)
+        Me.Button1.Location = New System.Drawing.Point(87, 97)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 0
@@ -54,7 +58,7 @@ Partial Class pers
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(861, 294)
+        Me.Button2.Location = New System.Drawing.Point(944, 176)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 1
@@ -63,7 +67,7 @@ Partial Class pers
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(603, 294)
+        Me.Button5.Location = New System.Drawing.Point(691, 166)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(110, 23)
         Me.Button5.TabIndex = 4
@@ -72,7 +76,7 @@ Partial Class pers
         '
         'Button6
         '
-        Me.Button6.Location = New System.Drawing.Point(418, 294)
+        Me.Button6.Location = New System.Drawing.Point(418, 273)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(75, 23)
         Me.Button6.TabIndex = 5
@@ -81,7 +85,7 @@ Partial Class pers
         '
         'Button7
         '
-        Me.Button7.Location = New System.Drawing.Point(232, 294)
+        Me.Button7.Location = New System.Drawing.Point(232, 273)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(75, 23)
         Me.Button7.TabIndex = 6
@@ -90,25 +94,16 @@ Partial Class pers
         '
         'Button8
         '
-        Me.Button8.Location = New System.Drawing.Point(879, 166)
+        Me.Button8.Location = New System.Drawing.Point(944, 81)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(75, 23)
+        Me.Button8.Size = New System.Drawing.Size(100, 23)
         Me.Button8.TabIndex = 7
         Me.Button8.Text = "Shampoo"
         Me.Button8.UseVisualStyleBackColor = True
         '
-        'Button10
-        '
-        Me.Button10.Location = New System.Drawing.Point(69, 399)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(75, 23)
-        Me.Button10.TabIndex = 9
-        Me.Button10.Text = "Hair cream"
-        Me.Button10.UseVisualStyleBackColor = True
-        '
         'Button13
         '
-        Me.Button13.Location = New System.Drawing.Point(69, 166)
+        Me.Button13.Location = New System.Drawing.Point(87, 166)
         Me.Button13.Name = "Button13"
         Me.Button13.Size = New System.Drawing.Size(75, 23)
         Me.Button13.TabIndex = 12
@@ -117,16 +112,16 @@ Partial Class pers
         '
         'Button14
         '
-        Me.Button14.Location = New System.Drawing.Point(879, 72)
+        Me.Button14.Location = New System.Drawing.Point(1169, 81)
         Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(75, 23)
+        Me.Button14.Size = New System.Drawing.Size(100, 23)
         Me.Button14.TabIndex = 13
         Me.Button14.Text = "Shaving Cream"
         Me.Button14.UseVisualStyleBackColor = True
         '
         'Button15
         '
-        Me.Button15.Location = New System.Drawing.Point(232, 399)
+        Me.Button15.Location = New System.Drawing.Point(1169, 273)
         Me.Button15.Name = "Button15"
         Me.Button15.Size = New System.Drawing.Size(75, 23)
         Me.Button15.TabIndex = 14
@@ -135,7 +130,7 @@ Partial Class pers
         '
         'Button16
         '
-        Me.Button16.Location = New System.Drawing.Point(418, 72)
+        Me.Button16.Location = New System.Drawing.Point(439, 97)
         Me.Button16.Name = "Button16"
         Me.Button16.Size = New System.Drawing.Size(75, 23)
         Me.Button16.TabIndex = 15
@@ -144,7 +139,7 @@ Partial Class pers
         '
         'Button17
         '
-        Me.Button17.Location = New System.Drawing.Point(603, 72)
+        Me.Button17.Location = New System.Drawing.Point(691, 97)
         Me.Button17.Name = "Button17"
         Me.Button17.Size = New System.Drawing.Size(75, 23)
         Me.Button17.TabIndex = 16
@@ -155,32 +150,23 @@ Partial Class pers
         '
         Me.Button18.Location = New System.Drawing.Point(220, 166)
         Me.Button18.Name = "Button18"
-        Me.Button18.Size = New System.Drawing.Size(75, 23)
+        Me.Button18.Size = New System.Drawing.Size(96, 23)
         Me.Button18.TabIndex = 17
         Me.Button18.Text = "Skin care"
         Me.Button18.UseVisualStyleBackColor = True
         '
         'Button19
         '
-        Me.Button19.Location = New System.Drawing.Point(603, 166)
+        Me.Button19.Location = New System.Drawing.Point(1169, 157)
         Me.Button19.Name = "Button19"
         Me.Button19.Size = New System.Drawing.Size(110, 23)
         Me.Button19.TabIndex = 18
         Me.Button19.Text = "Detergent powder"
         Me.Button19.UseVisualStyleBackColor = True
         '
-        'Button23
-        '
-        Me.Button23.Location = New System.Drawing.Point(418, 166)
-        Me.Button23.Name = "Button23"
-        Me.Button23.Size = New System.Drawing.Size(75, 23)
-        Me.Button23.TabIndex = 22
-        Me.Button23.Text = "Child care"
-        Me.Button23.UseVisualStyleBackColor = True
-        '
         'Button24
         '
-        Me.Button24.Location = New System.Drawing.Point(69, 294)
+        Me.Button24.Location = New System.Drawing.Point(75, 273)
         Me.Button24.Name = "Button24"
         Me.Button24.Size = New System.Drawing.Size(75, 23)
         Me.Button24.TabIndex = 23
@@ -189,7 +175,7 @@ Partial Class pers
         '
         'Button25
         '
-        Me.Button25.Location = New System.Drawing.Point(220, 72)
+        Me.Button25.Location = New System.Drawing.Point(220, 97)
         Me.Button25.Name = "Button25"
         Me.Button25.Size = New System.Drawing.Size(75, 23)
         Me.Button25.TabIndex = 24
@@ -208,23 +194,82 @@ Partial Class pers
         'LinkLabel1
         '
         Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(36, 648)
+        Me.LinkLabel1.Location = New System.Drawing.Point(27, 672)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(60, 13)
         Me.LinkLabel1.TabIndex = 26
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = ">>Previous"
         '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(404, 166)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(110, 23)
+        Me.Button3.TabIndex = 27
+        Me.Button3.Text = "Detergent Cake"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(670, 282)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(96, 23)
+        Me.Button4.TabIndex = 28
+        Me.Button4.Text = "Face Cream"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button9
+        '
+        Me.Button9.Location = New System.Drawing.Point(75, 399)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(75, 23)
+        Me.Button9.TabIndex = 29
+        Me.Button9.Text = "Face Wash"
+        Me.Button9.UseVisualStyleBackColor = True
+        '
+        'Button10
+        '
+        Me.Button10.Location = New System.Drawing.Point(232, 399)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(125, 37)
+        Me.Button10.TabIndex = 30
+        Me.Button10.Text = "Child Chare / शिशु केयर "
+        Me.Button10.UseVisualStyleBackColor = True
+        '
+        'Button11
+        '
+        Me.Button11.Location = New System.Drawing.Point(948, 273)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(96, 41)
+        Me.Button11.TabIndex = 31
+        Me.Button11.Text = "Face Scrub" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Button11.UseVisualStyleBackColor = True
+        '
+        'Button12
+        '
+        Me.Button12.Location = New System.Drawing.Point(501, 399)
+        Me.Button12.Name = "Button12"
+        Me.Button12.Size = New System.Drawing.Size(93, 37)
+        Me.Button12.TabIndex = 32
+        Me.Button12.Text = "Body lotion"
+        Me.Button12.UseVisualStyleBackColor = True
+        '
         'pers
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1020, 741)
+        Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.Button12)
+        Me.Controls.Add(Me.Button11)
+        Me.Controls.Add(Me.Button10)
+        Me.Controls.Add(Me.Button9)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button25)
         Me.Controls.Add(Me.Button24)
-        Me.Controls.Add(Me.Button23)
         Me.Controls.Add(Me.Button19)
         Me.Controls.Add(Me.Button18)
         Me.Controls.Add(Me.Button17)
@@ -232,7 +277,6 @@ Partial Class pers
         Me.Controls.Add(Me.Button15)
         Me.Controls.Add(Me.Button14)
         Me.Controls.Add(Me.Button13)
-        Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)
@@ -251,7 +295,6 @@ Partial Class pers
     Friend WithEvents Button6 As System.Windows.Forms.Button
     Friend WithEvents Button7 As System.Windows.Forms.Button
     Friend WithEvents Button8 As System.Windows.Forms.Button
-    Friend WithEvents Button10 As System.Windows.Forms.Button
     Friend WithEvents Button13 As System.Windows.Forms.Button
     Friend WithEvents Button14 As System.Windows.Forms.Button
     Friend WithEvents Button15 As System.Windows.Forms.Button
@@ -259,9 +302,14 @@ Partial Class pers
     Friend WithEvents Button17 As System.Windows.Forms.Button
     Friend WithEvents Button18 As System.Windows.Forms.Button
     Friend WithEvents Button19 As System.Windows.Forms.Button
-    Friend WithEvents Button23 As System.Windows.Forms.Button
     Friend WithEvents Button24 As System.Windows.Forms.Button
     Friend WithEvents Button25 As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
+    Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents Button4 As System.Windows.Forms.Button
+    Friend WithEvents Button9 As System.Windows.Forms.Button
+    Friend WithEvents Button10 As System.Windows.Forms.Button
+    Friend WithEvents Button11 As System.Windows.Forms.Button
+    Friend WithEvents Button12 As System.Windows.Forms.Button
 End Class

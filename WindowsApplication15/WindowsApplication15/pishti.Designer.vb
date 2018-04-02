@@ -22,16 +22,24 @@ Partial Class pishti
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.ListBox3 = New System.Windows.Forms.ListBox()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.ListBox2 = New System.Windows.Forms.ListBox()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.PatanjaliDataSet63 = New WindowsApplication15.patanjaliDataSet63()
+        Me.PishtiBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.PishtiTableAdapter = New WindowsApplication15.patanjaliDataSet63TableAdapters.pishtiTableAdapter()
+        Me.ProductnameDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ProductweightDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ProductpriceDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PatanjaliDataSet63, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PishtiBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'ListBox1
@@ -40,21 +48,10 @@ Partial Class pishti
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.ItemHeight = 16
         Me.ListBox1.Items.AddRange(New Object() {"Jahar Mohra Pishti / जहर मोहरा पिष्टी" & Global.Microsoft.VisualBasic.ChrW(9), "Kaharava Pishti / कहरवा पिष्टी" & Global.Microsoft.VisualBasic.ChrW(9), "Mukta Pishti / मुक्ता पिष्टी", "Mukta Pishti / मुक्ता पिष्टी" & Global.Microsoft.VisualBasic.ChrW(9), "Praval Panchamrit / प्रवाल पंचामृत" & Global.Microsoft.VisualBasic.ChrW(9), "Praval Pishti / प्रवल पिष्टी" & Global.Microsoft.VisualBasic.ChrW(9), "Praval Pishti / प्रवल पिष्टी" & Global.Microsoft.VisualBasic.ChrW(9), "Sangeyasav Pishti / संगेयसव पिष्टी" & Global.Microsoft.VisualBasic.ChrW(9), "Giloy Sat / गिलोय सत" & Global.Microsoft.VisualBasic.ChrW(9), "Giloy Sat / गिलोय सत"})
-        Me.ListBox1.Location = New System.Drawing.Point(253, 164)
+        Me.ListBox1.Location = New System.Drawing.Point(272, 147)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(197, 164)
         Me.ListBox1.TabIndex = 5
-        '
-        'ListBox3
-        '
-        Me.ListBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ListBox3.FormattingEnabled = True
-        Me.ListBox3.ItemHeight = 16
-        Me.ListBox3.Items.AddRange(New Object() {"5 gm" & Global.Microsoft.VisualBasic.ChrW(9), "5 gm", "2 gm" & Global.Microsoft.VisualBasic.ChrW(9), "3 gm" & Global.Microsoft.VisualBasic.ChrW(9), "5 gm" & Global.Microsoft.VisualBasic.ChrW(9), "5 gm" & Global.Microsoft.VisualBasic.ChrW(9), "10 gm" & Global.Microsoft.VisualBasic.ChrW(9), "5 gm" & Global.Microsoft.VisualBasic.ChrW(9), "5 gm" & Global.Microsoft.VisualBasic.ChrW(9), "10gm"})
-        Me.ListBox3.Location = New System.Drawing.Point(615, 164)
-        Me.ListBox3.Name = "ListBox3"
-        Me.ListBox3.Size = New System.Drawing.Size(120, 164)
-        Me.ListBox3.TabIndex = 8
         '
         'LinkLabel1
         '
@@ -91,30 +88,6 @@ Partial Class pishti
         Me.Label2.TabIndex = 14
         Me.Label2.Text = "" & Global.Microsoft.VisualBasic.ChrW(9) & "Products / उत्पाद"
         '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(611, 96)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(101, 20)
-        Me.Label3.TabIndex = 15
-        Me.Label3.Text = "Weight /वजन" & Global.Microsoft.VisualBasic.ChrW(9)
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(836, 96)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(87, 20)
-        Me.Label4.TabIndex = 16
-        Me.Label4.Text = "" & Global.Microsoft.VisualBasic.ChrW(9) & "Price / मूल्य"
-        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -135,46 +108,93 @@ Partial Class pishti
         Me.Label6.TabIndex = 18
         Me.Label6.Text = "Pishti/पिष्टी"
         '
-        'ListBox2
+        'Button1
         '
-        Me.ListBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ListBox2.FormattingEnabled = True
-        Me.ListBox2.ItemHeight = 16
-        Me.ListBox2.Items.AddRange(New Object() {"20 Rs", "40 Rs", "60 Rs", "90 Rs", "80 Rs", "30 Rs", "60 Rs", "15 Rs", "25 Rs", "50Rs"})
-        Me.ListBox2.Location = New System.Drawing.Point(840, 164)
-        Me.ListBox2.Name = "ListBox2"
-        Me.ListBox2.Size = New System.Drawing.Size(120, 164)
-        Me.ListBox2.TabIndex = 7
+        Me.Button1.Location = New System.Drawing.Point(630, 433)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(95, 34)
+        Me.Button1.TabIndex = 80
+        Me.Button1.Text = "ADD"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'DataGridView1
+        '
+        Me.DataGridView1.AutoGenerateColumns = False
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ProductnameDataGridViewTextBoxColumn, Me.ProductweightDataGridViewTextBoxColumn, Me.ProductpriceDataGridViewTextBoxColumn})
+        Me.DataGridView1.DataSource = Me.PishtiBindingSource
+        Me.DataGridView1.Location = New System.Drawing.Point(587, 147)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.Size = New System.Drawing.Size(347, 164)
+        Me.DataGridView1.TabIndex = 81
+        '
+        'PatanjaliDataSet63
+        '
+        Me.PatanjaliDataSet63.DataSetName = "patanjaliDataSet63"
+        Me.PatanjaliDataSet63.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'PishtiBindingSource
+        '
+        Me.PishtiBindingSource.DataMember = "pishti"
+        Me.PishtiBindingSource.DataSource = Me.PatanjaliDataSet63
+        '
+        'PishtiTableAdapter
+        '
+        Me.PishtiTableAdapter.ClearBeforeFill = True
+        '
+        'ProductnameDataGridViewTextBoxColumn
+        '
+        Me.ProductnameDataGridViewTextBoxColumn.DataPropertyName = "productname"
+        Me.ProductnameDataGridViewTextBoxColumn.HeaderText = "productname"
+        Me.ProductnameDataGridViewTextBoxColumn.Name = "ProductnameDataGridViewTextBoxColumn"
+        '
+        'ProductweightDataGridViewTextBoxColumn
+        '
+        Me.ProductweightDataGridViewTextBoxColumn.DataPropertyName = "productweight"
+        Me.ProductweightDataGridViewTextBoxColumn.HeaderText = "productweight"
+        Me.ProductweightDataGridViewTextBoxColumn.Name = "ProductweightDataGridViewTextBoxColumn"
+        '
+        'ProductpriceDataGridViewTextBoxColumn
+        '
+        Me.ProductpriceDataGridViewTextBoxColumn.DataPropertyName = "productprice"
+        Me.ProductpriceDataGridViewTextBoxColumn.HeaderText = "productprice"
+        Me.ProductpriceDataGridViewTextBoxColumn.Name = "ProductpriceDataGridViewTextBoxColumn"
         '
         'pishti
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1020, 741)
+        Me.ClientSize = New System.Drawing.Size(1052, 741)
+        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.LinkLabel1)
-        Me.Controls.Add(Me.ListBox3)
-        Me.Controls.Add(Me.ListBox2)
         Me.Controls.Add(Me.ListBox1)
         Me.Name = "pishti"
         Me.Text = "pishti"
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PatanjaliDataSet63, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PishtiBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
     Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
-    Friend WithEvents ListBox3 As System.Windows.Forms.ListBox
     Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents ListBox2 As System.Windows.Forms.ListBox
+    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
+    Friend WithEvents PatanjaliDataSet63 As WindowsApplication15.patanjaliDataSet63
+    Friend WithEvents PishtiBindingSource As System.Windows.Forms.BindingSource
+    Friend WithEvents PishtiTableAdapter As WindowsApplication15.patanjaliDataSet63TableAdapters.pishtiTableAdapter
+    Friend WithEvents ProductnameDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents ProductweightDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents ProductpriceDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
 End Class

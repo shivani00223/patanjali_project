@@ -10,7 +10,13 @@
 
     End Sub
 
-    Private Sub ListBox2_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ListBox2.SelectedIndexChanged
+    Private Sub ListBox2_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
+    End Sub
+
+    Private Sub gram_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        'TODO: This line of code loads data into the 'PatanjaliDataSet39.Gram_Flour' table. You can move, or remove it, as needed.
+        Me.Gram_FlourTableAdapter.Fill(Me.PatanjaliDataSet39.Gram_Flour)
 
     End Sub
 End Class
